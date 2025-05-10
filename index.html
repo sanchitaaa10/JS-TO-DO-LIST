@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple To do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+
+    body{
+        
+        background-repeat:no-repeat;
+        background-size: 100%;
+    }
+    
+
+    .task-item {
+        background-color: white;
+        width: 100%;
+        border-radius: 1rem;
+        border-bottom: 1rem;
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem;
+        
+    }
+
+    .delete-button {
+        background-color: rgb(255, 255, 255);
+        color: white;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    input{
+        margin-top: 60px;
+        margin-left: 45%;
+    }
+
+    button{
+        margin-top: 6px;
+        margin-left: 47%;
+
+    }
+
+
+
+
+</style>
+
+<body>
+    <div class="container">
+        <div id="tools-container">
+            <input type="text" id="input-text" placeholder="Add a task" value="hello" />
+            <br>
+            <button id="add-task-button">ADD TASK</button>
+        </div>
+        <div id="task-container"
+            style="background-color: rgba(12, 88, 8, 0.634); height: 2rem; width: 2rem; margin-top: 1rem; padding: 15rem; margin-left: 35%; border-radius: 40px;">
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
